@@ -1,0 +1,7 @@
+a= input("Enter your name: ")
+print(a)
+print("type of b: ", type(a))
+a=int(a)
+i = input()
+i = int(i)
+print("value of a+i:",i+a)

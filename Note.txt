@@ -1,0 +1,80 @@
+a="Chandan"
+b=45
+c=3.14
+d='''
+1. other way to declare string.
+2. used for multiple line strings.'''
+e = None
+
+Primitive datatype
+1. Integer
+2. float
+3. String
+4. Boolean
+5. None
+
+Tuples:
+1. we cannot update values of tuples
+2. t2 = (100,) #tuple with single element 
+3. t2 = (1000) is wrong way
+
+Dictionary:
+1. Dictionary is unordered
+2. mutable
+3. key must be unique, no duplicate keys are allowed
+4. we cannot access values by index
+
+Set:
+1. have non repeated elements
+2. we can not add list or dictionary in set
+3. we cannot change the values in set
+4. we cannot access values by index
+5. cannot add repeated values
+6. we can add different types of values in set
+
+File I/O:
+1. 'r' --> open for reading
+2. 'w' --> open for writing
+3. 'a' --> open for appending
+4. '+' --> open for updating
+5. 'rb' --> open for read in binary mode
+6. 'rt' --> open for read in text mode
+7. readline() --> to read line of a File
+8. read() --> to read the content of the File
+9. open('filePath.txt' , 'mode') --> to open a file 
+10. with open("sample.txt", 'r') as  f:a = f.read()  --> you don't have to use close() explicitly
+
+self:
+1. self keyword is used to pass class intance in a called function/method
+2. method will use the attributes of that intance.
+
+
+staticmethod:
+1. static keyword is used to call a function without the instance of a class
+2. syntax --> @staticmethod 
+              def method(): pass
+
+classmethod:
+1. class method is used to get the class variables and methods.
+2. Alter: we can use class attributes
+3. syntax: @classmethod 
+           def method():
+               print(ClassName.Variable)
+
+constructor:
+1. constructor function is called during the intialization of intance/object of a class
+2. it does not return any value
+
+Inheritance:
+1. code resuability
+2. Single Inheritance: (single)parent class --> (single)child class
+3. Multiple Inheritance: (two or more)parent class --> (single)child class
+4. Multi Level Inheritance: class A --> class B --> class C
+
+super:
+1. super keyword is used to get the value of variable intialized in parent class.
+2. syntax: super().method()
+
+operator overloading
+1. we can customize the operator
+2. when we use those elementary operators on object [__add__, __sub__, __mul__, __truediv__] will be called
